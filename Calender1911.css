@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef1f6;
+    text-align: center;
+}
+
+.title {
+    margin: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.calendar {
+    margin: auto;
+    border-collapse: collapse;
+    width: 70%;
+    background: white;
+}
+
+.calendar th {
+    background: #d1d7e0;
+    padding: 10px;
+}
+
+.calendar td {
+    border: 1px solid #b7b7b7;
+    padding: 15px;
+}
+
+.other {
+    color: gray;
+}
+
+.today {
+    background: #89c4ff;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 25px;
+    font-size: 13px;
+    color: #555;
+}
